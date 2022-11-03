@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Агентство недвижимости</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Введите ваши данные</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="https://docs.google.com/forms/d/1oOM0gD-q0_JYwgmr2svV56SBC5ds7Mla5dCp0fxl06o" onsubmit="return window.submitGoogleForm(this);">
+            <div class="mb-2"><label class="d-inline-block mb-1 " for="username">Имя:</label><input class="w-100 mb-2 p-1" type="text" id="username" name="username"></div>
+            <div><label class="d-inline-block mb-1 " for="userphone">Телефон:</label><input class="w-100 mb-2 p-1" type="tel" name="userphone"></div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+              </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="firstscreen d-flex align-items-center">
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+        <div class="col-md-6 item mb-5 mb-md-0">
+            <h1 class="title title-t">
+                Покупка
+            </h1>
+            <div class="content fs-3  mb-md-5 mb-4">
+                Подберем лучшие и самые выгодные варианты на вторичном рынке квартир. Поможем купить квартиру в лучших новостройках Москвы и Подмосковья. Одобрим ипотеку с минимальным первым взносом.
+            </div>
+            <button type="button" class="btn btn-primary reqbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Оставить заявку
+              </button>
+        </div>
+        <div class="col-md-6 item">
+            <h1 class="title title-t">
+                Продажа
+            </h1>
+            <div class="content fs-3  mb-md-5 mb-4">
+                продадим Вашу квартиру поимаксимальной цене, в кратчайшии сроки. Произведем обмен Вашей квартиры на более выгодный и самый лучший для Вас вариант.
+            </div>
+            <button type="button" class="btn btn-primary reqbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Оставить заявку
+              </button>
+        </div>
+    </div>
+  </div>
+</div>
+<section class="advantages">
+    <div class="advantages__container container">
+        <div class="advantages__title title">Преимущества нашего Агентства</div>
+        <div class="advantages__items">
+            <div class="advantages__item">
+                <div class="advantages__label">НАДЕЖНОСТЬ</div>
+                <div class="advantages__text">Вы приобретете проверенную квартиру, которая будет подвергаться профессиональной экспертизе.</div>
+            </div>
+            <div class="advantages__item">
+                <div class="advantages__label">БЕЗОПАСНОСТЬ</div>
+                <div class="advantages__text">Справиться с мошенническими трюками и другими опасностями рынка недвижимости возможно только опытному специалисту.</div>
+            </div>
+            <div class="advantages__item">
+                <div class="advantages__label">ЛЕГКОСТЬ</div>
+                <div class="advantages__text">Мы сопровождаем сделку до завершения и можем разобраться практически со всеми затруднениями, которые возникнут.</div>
+            </div>
+            <div class="advantages__item">
+                <div class="advantages__label">СВОЯ БАЗА</div>
+                <div class="advantages__text">Также агентство имеет свою закрытую базу проверенных предложений в сфере недвижимости. Это, в свою очередь, значительно ускорит процесс выбора нужного варианта.</div>
+            </div>
+            <div class="advantages__item">
+                <div class="advantages__label">ГРАМОТНОСТЬ</div>
+                <div class="advantages__text">Юридическое сопровождение полностью гарантирует правильное оформление всех документов и отсутствие каких-либо возможных проблем с жильем впоследствии.</div>
+            </div>
+            <div class="advantages__item">
+                <div class="advantages__label">БЫСТРОТА
+                </div>
+                <div class="advantages__text">Быстрое оформление всей необходимой документации позволит сохранить денежные средства при неизменном росте цен на квартиры и дома.</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contacts">
+    <div class="container">
+    <div class="title">Контакты</div>
+    <div class="contacts__items">
+        <div><a href="tel:89855290408">+7(985)-529-04-08</a></div>
+        <div><a href="mailto:example@mail.com">example@mail.com</a></div>
+        <div>            <button type="button" class="btn btn-primary reqbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Оставить заявку
+          </button></div>
+    </div>
+</div>
+</section>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
