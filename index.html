@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -22,13 +26,14 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form action="https://docs.google.com/forms/d/1oOM0gD-q0_JYwgmr2svV56SBC5ds7Mla5dCp0fxl06o" onsubmit="return window.submitGoogleForm(this);">
-            <div class="mb-2"><label class="d-inline-block mb-1 " for="username">Имя:</label><input class="w-100 mb-2 p-1" type="text" id="username" name="username"></div>
-            <div><label class="d-inline-block mb-1 " for="userphone">Телефон:</label><input class="w-100 mb-2 p-1" type="tel" name="userphone"></div>
+          <form action="sender.php" method="post">
+            <div class="mb-2"><label class="d-inline-block mb-1 " for="username">Имя:</label><input class="w-100 mb-2 p-1" type="text" id="username" name="name" required></div>
+            <div><label class="d-inline-block mb-1 " for="userphone">Телефон:</label><input class="w-100 mb-2 p-1" type="tel" name="phone" required></div>
             
             <div class="modal-footer">
+                <div class="status"></div>
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                <button type="submit" class="btn btn-primary">Отправить</button>
+                <button type="button" class="btn btn-primary send-form">Отправить</button>
               </div>
           </form>
         </div>
