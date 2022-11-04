@@ -118,6 +118,7 @@ body {
 }
 .btnLink:hover {
     color: #fff;
+    filter: brightness(0.97);
 }
 .title {
 }
