@@ -111,14 +111,13 @@ body {
     display: inline-block;
     text-align: center;
     line-height: 44px;
-    background-color: #0d6efd;
+    background-color: #ffc107;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 .btnLink:hover {
     color: #fff;
-    background-color: #0b5ed7;
 }
 .title {
 }
