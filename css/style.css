@@ -94,15 +94,31 @@ body {
 .contacts {
     padding-bottom: 100px;
 }
-.contacts a{
+.contacts .contact-link{
     display: inline-block;
-    font-size: 40px;
+    font-size: 30px;
     color: #000;
     transition: all .3s ease;
 }
-.contacts a:hover {
+.contacts .contact-link:hover {
     text-decoration: none;
     color: #0d6efd;
+}
+.btnLink {
+    transition: background-color ease .3s;
+    width: 183px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    background-color: #0d6efd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btnLink:hover {
+    color: #fff;
+    background-color: #0b5ed7;
 }
 .title {
 }
@@ -138,7 +154,7 @@ body {
     }
 }
 @media screen and (max-width: 400px) {
-    .contacts a {
+       .contacts .contact-link {
        font-size: 30px;
     }
 }
