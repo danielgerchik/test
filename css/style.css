@@ -35,7 +35,7 @@ body {
     min-height: 100vh;
 }
 
-.advantages {
+/* .advantages {
     padding: 100px 0
 }
 
@@ -82,7 +82,7 @@ body {
 .advantages__text {
     font-size: 20px;
     line-height: 1.2
-}
+} */
 .title {
     font-size: 40px;
     margin-bottom: 100px;
@@ -146,4 +146,17 @@ body {
 .status {
     color: green;
     margin-right: 15px;
+}
+.textBlock {
+padding-bottom: 100px;
+
+}
+.textBlock ul{
+    line-height: 1.2;
+}
+.textBlock ul li{
+    margin-bottom: 40px;
+}
+.textBlock ul li span{
+    font-weight: 500;
 }
