@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Kleymissky';
+    src: url('../fonts/Kleymissky0283.eot');
+    src: url('../fonts/Kleymissky0283.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Kleymissky0283.woff2') format('woff2'),
+         url('../fonts/Kleymissky0283.woff') format('woff'),
+         url('../fonts/Kleymissky0283.ttf')  format('truetype'),
+         url('../fonts/Kleymissky0283.svg#Kleymissky') format('svg');
+}
+
 html {
 
     box-sizing: border-box;
@@ -31,8 +41,8 @@ body {
     --bs-btn-padding-y: 0.575rem;
 
 }
-.firstscreen {
-    min-height: 100vh;
+.buy-sell {
+    padding-top: 100px;
 }
 
 .title {
@@ -132,4 +142,18 @@ padding: 100px 0;
 }
 .textBlock ul li span{
     font-weight: 500;
+}
+.about {
+    padding-top: 80px;
+}
+.about .text{
+    line-height: 1.2;
+}
+.header {
+    padding: 30px 0;
+}
+.logo {
+    font-family: 'Kleymissky';
+    font-size: 60px;
+    color: rgba(40, 167, 69, 0.9);
 }
