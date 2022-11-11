@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Kleymissky';
-    src: url('../Kleymissky0283.eot');
-    src: url('../Kleymissky0283.eot?#iefix') format('embedded-opentype'),
-         url('../Kleymissky0283.woff2') format('woff2'),
-         url('../Kleymissky0283.woff') format('woff'),
-         url('../Kleymissky0283.ttf')  format('truetype'),
-         url('../Kleymissky0283.svg#Kleymissky') format('svg');
+    src: url('../fonts/Kleymissky0283.eot');
+    src: url('../fonts/Kleymissky0283.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Kleymissky0283.woff2') format('woff2'),
+         url('../fonts/Kleymissky0283.woff') format('woff'),
+         url('../fonts/Kleymissky0283.ttf')  format('truetype'),
+         url('../fonts/Kleymissky0283.svg#Kleymissky') format('svg');
 }
 
 html {
